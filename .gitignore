@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# 备份与运行时
+*.backup
+*.bak
+*.log
+*.tmp
+
+# 本地状态
+state.local.json
