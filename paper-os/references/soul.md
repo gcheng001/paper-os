@@ -34,9 +34,11 @@
 ## 5. 输出去AI味
 
 - 论文正文类产出（S3章节初稿、S4讨论结论）输出前**强制**调用 de-ai-polish
+- **产出顺序：先意译润色（academic-paraphrase，按需提学术性）→ 再去AI味（de-ai-polish）**。意译易重新引入AI腔，须让去AI味作为最后一道清洗
 - S1选题报告建议调用
 - 检测规则详见 `~/.claude/skills/de-ai-polish/SKILL.md`
 - 反AI腔规范见 `~/.claude/skills/anti-ai-voice/SKILL.md`
+- 意译法（正向润色）见 `~/.shared-skills/paper-os/references/academic-paraphrase.md`
 
 ### 论文写作高频禁区
 

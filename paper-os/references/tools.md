@@ -36,6 +36,7 @@
 | Quarto | 学术写作框架 | 自动编号+索引+参考文献 |
 | Raycast | 预设快捷对话 | "人话说论文"等AI预设，可调模型温度 |
 | Ulysses/Scrivener | 卡片拼接输出 | 笔记模块拖拽排列→线性草稿 |
+| **academic-paraphrase** | 学术意译润色 | 中→中/中→英逐段意译保留细节，与 de-ai-polish 联动（先意译后去AI味），见 paper-os/references/academic-paraphrase.md |
 
 ## S5 自检阶段
 
@@ -56,6 +57,13 @@
 | WebSearch | 一般文献/数据核查 | Semantic Scholar/Google Scholar |
 | Semantic Scholar | 学术文献验证 | 检查文献是否真实存在 |
 | Google Scholar | 引用检索 | 核实引用来源 |
+
+## S-DATA 数据分析（可选）
+
+| 工具 | 用途 | 说明 |
+|------|------|------|
+| 智谱清言 GLM4 | 零代码数据分析 | 上传CSV→自然语言完成描述统计/可视化/建模，无需编程；结果进论文须经 S6 复核 |
+| Codex | 脏数据6步核查 | 只读扫描→口径确认→质检清单→问题清单→修复版；三安全红线（只读/副本/不覆盖源） |
 
 ## 英语辅助（贯穿全流程）
 

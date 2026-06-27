@@ -43,6 +43,7 @@ version: 1.0
 | 法规引用 | 元典法规详情 | `mcp__yuandian-law__yuandian_rh_fg_detail` |
 | 一般学术文献 | 网络验证 | WebSearch（Semantic Scholar/Google Scholar） |
 | 数据/统计 | 原始数据源核对 | WebSearch + 官方数据库 |
+| S-DATA 产出 | 复核统计方法/原始数据一致性 | 对照 S-DATA outputs + 原始 CSV（GLM4 分析结果/Codex 修复版） |
 | 日期/时间 | 原始来源核对 | WebSearch |
 
 ### Step 3：逐项核查（使用事实核查提示词）
